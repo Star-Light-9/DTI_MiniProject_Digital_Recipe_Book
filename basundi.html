@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+    <head>
+        <title>
+            Recipe: Basundi
+        </title>
+        <link rel="stylesheet" href="recipe.css">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+        <link rel="icon" href="logo.png" type="image/png" style="border-radius: 5px;">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <figure>
+                    <img src="logo.png" height="75px" width="75px">
+                    <figcaption>RecipeLove</figcaption>
+                </figure>
+            </div>
+            <h1 class="tagline">
+                ANYONE CAN COOK!
+            </h1>
+            <div class="search-container">
+                <input type="text" placeholder="Search here..." class="search-input">
+                <button class="search-button">Search</button>
+            </div>
+            <form class="search">
+                <a class="button" target="_blank" href="main.html">Get Started</a>
+                <a class="button" target="_blank" href="login.html">Log In</a>
+                <a class="button" target="_blank" href="signup.html">Sign Up</a>
+            </form>
+        </header>
+
+        <div class="navbar">
+            <div class="navoption">
+                Meals
+                <div class="navoptionbox">
+                    <ul>
+                        <li><a href="#">Breakfast</a></li>
+                        <li><a href="#">Snacks</a></li>
+                        <li><a href="#">Lunch</a></li>
+                        <li><a href="#">Brunch</a></li>
+                        <li><a href="#">Dinner</a></li>
+                        <li><a href="#">Desserts</a></li>
+                        <li><a href="#">Drinks</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="navoption">
+                Type
+                <div class="navoptionbox">
+                    <ul>
+                        <li><a href="#">Veg</a></li>
+                        <li><a href="#">Non-Veg</a></li>
+                        <li><a href="#">Fast</a></li>
+                        <li><a href="#">Eggs</a></li>
+                        <li><a href="#">Fruits</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="navoption">
+                Cuisines
+                <div class="navoptionbox">
+                    <ul>
+                        <li><a href="#">Indian</a></li>
+                        <li><a href="#">Mexican</a></li>
+                        <li><a href="#">Italian</a></li>
+                        <li><a href="#">French</a></li>
+                        <li><a href="#">Chinese</a></li>
+                        <li><a href="#">Thai</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="navoption">
+                Kitchen Tips
+                <div class="navoptionbox">
+                    <ul>
+                        <li>🔪Cooking Tips</li>
+                        <li>🧼Cleaning Tips</li>
+                        <li>🧊Storage Tips</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="recipe-page">
+            <h1>
+                Recipe: Basundi
+            </h1>
+            <img src="basundi.png" alt="Basundi" class="recipe-img" width="200px" height="200px">
+
+            <div class="recipe-meta">
+                <p><strong>Prep time:</strong> 5 min</p>
+                <p><strong>Cook time:</strong> 60 min</p>
+                <p><strong>Servings:</strong> 4</p>
+            </div>
+
+            <h2>Ingredients</h2>
+            <ul>
+                <li>1 liter full-fat milk</li>
+                <li>1/4 cup sugar (adjust to taste)</li>
+                <li>4 to 5 green cardamom pods (crushed or powdered)</li>
+                <li>8 to 10 almonds (sliced or chopped)</li>
+                <li>8 to 10 pistachios (sliced or chopped)</li>
+                <li>A few saffron strands (optional)</li>
+                <li>1 tbsp chopped cashews (optional)</li>
+                <li>1 tbsp raisins (optional)</li>
+            </ul>
+
+            <h2>Instructions</h2>
+            <ol>
+                <li>Pour the milk into a heavy-bottomed pan. Bring it to a boil on medium heat.</li>
+                <li>Lower the heat and let the milk simmer. Stir every 2 to 3 minutes and scrape the sides of the pan — add the cream back into the milk. This step takes around 30 to 40 minutes until the milk reduces to about half.</li>
+                <li>Stir in the sugar and crushed cardamom. Mix well until the sugar dissolves.</li>
+                <li>Add almonds, pistachios, and saffron (if using). Let it simmer for another 5 to 10 minutes.</li>
+                <li>Let basundi cool down. You can serve it warm or chilled — both ways are delicious!</li>
+            </ol>
+            <div class="back">
+                <a href="main.html">← Back to Recipes</a>
+                <div class="recipe-actions">
+                    <button class="action-btn">🔖 Save</button>
+                    <button class="action-btn" onclick="navigator.share ? navigator.share({ title: document.title, url: window.location.href }) : alert('Sharing not supported')">📤 Share</button>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+    <head>
+        <title>
+            Recipe: Pav Bhaji
+        </title>
+        <link rel="stylesheet" href="recipe.css">
+        <link rel="icon" href="logo.png" type="image/png" style="border-radius: 5px;">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <figure>
+                    <img src="logo.png" height="75px" width="75px">
+                    <figcaption>RecipeLove</figcaption>
+                </figure>
+            </div>
+            <h1 class="tagline">
+                ANYONE CAN COOK!
+            </h1>
+            <div class="search-container">
+                <input type="text" placeholder="Search here..." class="search-input">
+                <button class="search-button">Search</button>
+            </div>
+            <form class="search">
+                <a class="button" target="_blank" href="main.html">Get Started</a>
+                <a class="button" target="_blank" href="login.html">Log In</a>
+                <a class="button" target="_blank" href="signup.html">Sign Up</a>
+            </form>
+        </header>
+
+        <div class="navbar">
+            <div class="navoption">
+                Meals
+                <div class="navoptionbox">
+                    <ul>
+                        <li><a href="#">Breakfast</a></li>
+                        <li><a href="#">Snacks</a></li>
+                        <li><a href="#">Lunch</a></li>
+                        <li><a href="#">Brunch</a></li>
+                        <li><a href="#">Dinner</a></li>
+                        <li><a href="#">Desserts</a></li>
+                        <li><a href="#">Drinks</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="navoption">
+                Type
+                <div class="navoptionbox">
+                    <ul>
+                        <li><a href="#">Veg</a></li>
+                        <li><a href="#">Non-Veg</a></li>
+                        <li><a href="#">Fast</a></li>
+                        <li><a href="#">Eggs</a></li>
+                        <li><a href="#">Fruits</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="navoption">
+                Cuisines
+                <div class="navoptionbox">
+                    <ul>
+                        <li><a href="#">Indian</a></li>
+                        <li><a href="#">Mexican</a></li>
+                        <li><a href="#">Italian</a></li>
+                        <li><a href="#">French</a></li>
+                        <li><a href="#">Chinese</a></li>
+                        <li><a href="#">Thai</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="navoption">
+                Kitchen Tips
+                <div class="navoptionbox">
+                    <ul>
+                        <li>🔪Cooking Tips</li>
+                        <li>🧼Cleaning Tips</li>
+                        <li>🧊Storage Tips</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="recipe-page">
+            <h1>
+                Recipe: Pav Bhaji
+            </h1>
+            <img src="pavbhaji.png" alt="Pav Bhaji" class="recipe-img" width="200px" height="200px">
+
+            <div class="recipe-meta">
+                <p><strong>Prep time:</strong> 15 min</p>
+                <p><strong>Cook time:</strong> 25 min</p>
+                <p><strong>Servings:</strong> 3</p>
+            </div>
+
+            <h2>Ingredients</h2>
+            <ul>
+                <li>Potatoes (boiled & mashed)</li>
+                <li>Green peas (boiled)</li>
+                <li>Onion, tomato, capsicum (chopped)</li>
+                <li>Ginger-garlic paste</li>
+                <li>Pav bhaji masala</li>
+                <li>Red chili powder, turmeric, salt</li>
+                <li>Butter & oil</li>
+                <li>Water (for consistency)</li>
+                <li>Lemon & coriander (for garnish)</li>
+                <li>Pav buns</li>
+                <li>Mayo & ketchup</li>
+                <li>Pav bhaji masala (optional, for toasting)</li>
+            </ul>
+
+            <h2>Instructions</h2>
+            <ol>
+                <li>Boil potatoes, peas, and cauliflower together until soft. Mash and set aside.</li>
+                <li>Heat butter + oil in a pan. Sauté onions until soft.</li>
+                <li>Add ginger-garlic paste and chilies. Cook 1–2 mins.</li>
+                <li>Add tomatoes, cook until mushy or oil separates.</li>
+                <li>Add pav bhaji masala, turmeric, chili powder, and salt.</li>
+                <li>Add mashed vegetables and some water. Mix well and mash everything together.</li>
+                <li>Simmer for 10–15 mins. Adjust consistency with water.</li>
+                <li>Add a bit more butter, lemon juice, and chopped coriander.</li>
+                <li>Slice pav buns, apply butter, and sprinkle a little pav bhaji masala.</li>
+                <li>Toast on a pan until golden and crisp.</li>
+                <li>Serve hot bhaji with toasted pav, chopped onions, lemon wedges, and extra butter on top.</li>
+            </ol>
+
+            <div class="back">
+                <a href="main.html">← Back to Recipes</a>
+                <div class="recipe-actions">
+                    <button class="action-btn">🔖 Save</button>
+                    <button class="action-btn" onclick="navigator.share ? navigator.share({ title: document.title, url: window.location.href }) : alert('Sharing not supported')">📤 Share</button>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

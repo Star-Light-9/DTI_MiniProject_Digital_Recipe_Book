@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            RecipeLove
+        </title>
+        <link rel="stylesheet" href="user.css">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+        <link rel="icon" href="logo.png" type="image/png" style="border-radius: 5px;">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <figure>
+                    <img src="logo.png" height="75px" width="75px">
+                    <figcaption>RecipeLove</figcaption>
+                </figure>
+            </div>
+            <h1 class="tagline">ANYONE CAN COOK!</h1>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search here..." class="search-input">
+                <button id="searchButton" class="search-button">Search</button>
+            </div>
+            <div class="user-info">
+                <img src="user.png" alt="User DP" class="user-dp">
+                <span class="user-name">Hi, Pooja 👋</span>
+            </div>
+        </header>
+
+        <div class="navbar">
+            <div class="navoption">
+                Meals
+                <div class="navoptionbox">
+                    <ul>
+                        <li><a href="#">Breakfast</a></li>
+                        <li><a href="#">Snacks</a></li>
+                        <li><a href="#">Lunch</a></li>
+                        <li><a href="#">Brunch</a></li>
+                        <li><a href="#">Dinner</a></li>
+                        <li><a href="#">Desserts</a></li>
+                        <li><a href="#">Drinks</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="navoption">
+                Type
+                <div class="navoptionbox">
+                    <ul>
+                        <li><a href="#">Veg</a></li>
+                        <li><a href="#">Non-Veg</a></li>
+                        <li><a href="#">Fast</a></li>
+                        <li><a href="#">Eggs</a></li>
+                        <li><a href="#">Fruits</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="navoption">
+                Cuisines
+                <div class="navoptionbox">
+                    <ul>
+                        <li><a href="#">Indian</a></li>
+                        <li><a href="#">Mexican</a></li>
+                        <li><a href="#">Italian</a></li>
+                        <li><a href="#">French</a></li>
+                        <li><a href="#">Chinese</a></li>
+                        <li><a href="#">Thai</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="navoption">
+                Kitchen Tips
+                <div class="navoptionbox">
+                    <ul>
+                        <li>🔪Cooking Tips</li>
+                        <li>🧼Cleaning Tips</li>
+                        <li>🧊Storage Tips</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="user-features">
+            <div class="feature-card">
+                <h2>Your Recipes</h2>
+                <p>Access and manage recipes you've added.</p>
+                <a href="your-recipes.html">View</a>
+            </div>
+
+            <div class="feature-card">
+                <h2>Saved Recipes</h2>
+                <p>View recipes you've bookmarked for later.</p>
+                <a href="saved-recipes.html">View</a>
+            </div>
+
+            <div class="feature-card">
+                <h2>Upload Recipe</h2>
+                <p>Share your own amazing recipes with the community.</p>
+                <a href="upload.html">Upload</a>
+            </div>
+
+            <div class="feature-card">
+                <h2>Meal Planner</h2>
+                <p>Create weekly meal plans and stay organized.</p>
+                <a href="meal-planner.html">Plan Now</a>
+            </div>
+
+            <div class="feature-card">
+                <h2>Shopping List</h2>
+                <p>Generate a grocery list from your saved recipes.</p>
+                <a href="shopping-list.html">View List</a>
+            </div>
+
+            <div class="feature-card">
+                <h2>Cooking Challenges</h2>
+                <p>Participate in weekly themes and win badges!</p>
+                <a href="challenges.html">Join Now</a>
+            </div>
+
+            <div class="feature-card">
+                <h2>Collections</h2>
+                <p>Group your recipes into custom collections.</p>
+                <a href="main.html" target="_blank">Explore</a>
+            </div>
+        </div>
+
+        <div class="grocery-section">
+            <button class="grocery-toggle" onclick="toggleGrocery()">🛒 Grocery List</button>
+            <div id="groceryList" class="grocery-list">
+                <ul>
+                    <li>Tomatoes 🍅</li>
+                    <li>Olive Oil 🫒</li>
+                    <li>Garlic 🧄</li>
+                    <li>Spaghetti 🍝</li>
+                    <li>Cheese 🧀</li>
+                </ul>
+            </div>
+        </div>
+
+        <script>
+            function toggleGrocery() {
+                const list = document.getElementById('groceryList');
+                list.style.display = list.style.display === 'block' ? 'none' : 'block';
+            }
+        </script>
+
+        <script src="main.js"></script>
+    </body>
+</html>

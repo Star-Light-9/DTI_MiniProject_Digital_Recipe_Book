@@ -1,0 +1,109 @@
+body {
+    background-image: url(milkyway.jpg);
+    background-size: cover;
+    background-color: #ede0d4;
+    margin: 0;
+}
+
+.main{
+    background-color: #DDB892;
+    margin: 2em;
+    border-style: hidden;
+    border-radius: 2em;
+    width: 15em;
+    padding: 50px;
+    box-shadow: 2em;
+    font-family: 'Comic Sans MS';
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-55%, -55%);
+}
+
+.heading{
+    text-align: center;
+    color: #5e3023;
+}
+
+.form{
+    text-decoration: double;
+}
+
+label{
+    text-align: left;
+}
+
+input[type="text"]{
+    text-align: center;
+    background-color: #E6CCB2;
+}
+
+input[type="password"]{
+    text-align: center;
+    background-color: #E6CCB2;
+}
+
+input[type="email"]{
+    text-align: center;
+    background-color: #E6CCB2;
+}
+
+.button{
+    text-align: center;
+}
+
+input[type="submit"]{
+    background-color: #9C6644;
+    border-radius: 2em;
+    color: #fff;
+    width: 7em;
+    height: 3em;
+}
+
+input[type="submit"]:hover{
+    background-color: #8c1c13;
+}
+
+.new a{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #9C6644;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.new{
+    text-align: center;
+}
+
+.new a:hover{
+    background-color: #8c1c13;
+}
+
+.button a{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #9C6644;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    font-family: sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button{
+    text-align: center;
+}
+
+.button a:hover{
+    background-color: #8c1c13;
+}

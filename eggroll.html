@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+    <head>
+        <title>
+            Recipe: Egg Roll
+        </title>
+        <link rel="stylesheet" href="recipe.css">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+        <link rel="icon" href="logo.png" type="image/png" style="border-radius: 5px;">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <figure>
+                    <img src="logo.png" height="75px" width="75px">
+                    <figcaption>RecipeLove</figcaption>
+                </figure>
+            </div>
+            <h1 class="tagline">
+                ANYONE CAN COOK!
+            </h1>
+            <div class="search-container">
+                <input type="text" placeholder="Search here..." class="search-input">
+                <button class="search-button">Search</button>
+            </div>
+            <form class="search">
+                <a class="button" target="_blank" href="main.html">Get Started</a>
+                <a class="button" target="_blank" href="login.html">Log In</a>
+                <a class="button" target="_blank" href="signup.html">Sign Up</a>
+            </form>
+        </header>
+
+        <div class="navbar">
+            <div class="navoption">
+                Meals
+                <div class="navoptionbox">
+                    <ul>
+                        <li><a href="#">Breakfast</a></li>
+                        <li><a href="#">Snacks</a></li>
+                        <li><a href="#">Lunch</a></li>
+                        <li><a href="#">Brunch</a></li>
+                        <li><a href="#">Dinner</a></li>
+                        <li><a href="#">Desserts</a></li>
+                        <li><a href="#">Drinks</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="navoption">
+                Type
+                <div class="navoptionbox">
+                    <ul>
+                        <li><a href="#">Veg</a></li>
+                        <li><a href="#">Non-Veg</a></li>
+                        <li><a href="#">Fast</a></li>
+                        <li><a href="#">Eggs</a></li>
+                        <li><a href="#">Fruits</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="navoption">
+                Cuisines
+                <div class="navoptionbox">
+                    <ul>
+                        <li><a href="#">Indian</a></li>
+                        <li><a href="#">Mexican</a></li>
+                        <li><a href="#">Italian</a></li>
+                        <li><a href="#">French</a></li>
+                        <li><a href="#">Chinese</a></li>
+                        <li><a href="#">Thai</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="navoption">
+                Kitchen Tips
+                <div class="navoptionbox">
+                    <ul>
+                        <li>🔪Cooking Tips</li>
+                        <li>🧼Cleaning Tips</li>
+                        <li>🧊Storage Tips</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="recipe-page">
+            <h1>
+                Recipe: Egg Roll
+            </h1>
+            <img src="eggroll.png" alt="Egg Roll" class="recipe-img" width="200px" height="200px">
+
+            <div class="recipe-meta">
+                <p><strong>Prep time:</strong> 10 min</p>
+                <p><strong>Cook time:</strong> 15 min</p>
+                <p><strong>Servings:</strong> 2</p>
+            </div>
+
+            <h2>Ingredients</h2>
+            <ul>
+                <li>2 large eggs</li>
+                <li>2 paratha or tortilla wraps</li>
+                <li>1 small onion (finely sliced)</li>
+                <li>1 small tomato (chopped)</li>
+                <li>1 green chili (optional, finely chopped)</li>
+                <li>1 tbsp oil or butter</li>
+                <li>Salt and pepper to taste</li>
+                <li>Tomato ketchup or green chutney (optional)</li>
+            </ul>
+
+            <h2>Instructions</h2>
+            <ol>
+                <li>In a bowl, whisk the eggs with salt and pepper.</li>
+                <li>Heat oil in a pan and pour the egg mixture into it, swirling slightly to spread.</li>
+                <li>Place a paratha/tortilla directly over the egg while it's still wet. Press gently and cook until the egg is set and the wrap sticks.</li>
+                <li>Flip and cook for another 1–2 minutes. Remove from heat.</li>
+                <li>Add chopped onions, tomatoes, chilies, and sauces if using on the egg side.</li>
+                <li>Roll it up tightly and cut in half if desired. Serve hot!</li>
+            </ol>
+            <div class="back">
+                <a href="main.html">← Back to Recipes</a>
+                <div class="recipe-actions">
+                    <button class="action-btn">🔖 Save</button>
+                    <button class="action-btn" onclick="navigator.share ? navigator.share({ title: document.title, url: window.location.href }) : alert('Sharing not supported')">📤 Share</button>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

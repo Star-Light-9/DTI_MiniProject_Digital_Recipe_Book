@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+    <head>
+        <title>
+            Recipe: Pineapple Juice
+        </title>
+        <link rel="stylesheet" href="recipe.css">
+        <link rel="icon" href="logo.png" type="image/png" style="border-radius: 5px;">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <figure>
+                    <img src="logo.png" height="75px" width="75px">
+                    <figcaption>RecipeLove</figcaption>
+                </figure>
+            </div>
+            <h1 class="tagline">
+                ANYONE CAN COOK!
+            </h1>
+            <div class="search-container">
+                <input type="text" placeholder="Search here..." class="search-input">
+                <button class="search-button">Search</button>
+            </div>
+            <form class="search">
+                <a class="button" target="_blank" href="main.html">Get Started</a>
+                <a class="button" target="_blank" href="login.html">Log In</a>
+                <a class="button" target="_blank" href="signup.html">Sign Up</a>
+            </form>
+        </header>
+
+        <div class="navbar">
+            <div class="navoption">
+                Meals
+                <div class="navoptionbox">
+                    <ul>
+                        <li><a href="#">Breakfast</a></li>
+                        <li><a href="#">Snacks</a></li>
+                        <li><a href="#">Lunch</a></li>
+                        <li><a href="#">Brunch</a></li>
+                        <li><a href="#">Dinner</a></li>
+                        <li><a href="#">Desserts</a></li>
+                        <li><a href="#">Drinks</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="navoption">
+                Type
+                <div class="navoptionbox">
+                    <ul>
+                        <li><a href="#">Veg</a></li>
+                        <li><a href="#">Non-Veg</a></li>
+                        <li><a href="#">Fast</a></li>
+                        <li><a href="#">Eggs</a></li>
+                        <li><a href="#">Fruits</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="navoption">
+                Cuisines
+                <div class="navoptionbox">
+                    <ul>
+                        <li><a href="#">Indian</a></li>
+                        <li><a href="#">Mexican</a></li>
+                        <li><a href="#">Italian</a></li>
+                        <li><a href="#">French</a></li>
+                        <li><a href="#">Chinese</a></li>
+                        <li><a href="#">Thai</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="navoption">
+                Kitchen Tips
+                <div class="navoptionbox">
+                    <ul>
+                        <li>🔪Cooking Tips</li>
+                        <li>🧼Cleaning Tips</li>
+                        <li>🧊Storage Tips</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="recipe-page">
+            <h1>
+                Recipe: Pineapple Juice
+            </h1>
+            <img src="pineapplejuice.png" alt="Pineapple Juice" class="recipe-img" width="200px" height="200px">
+
+            <div class="recipe-meta">
+                <p><strong>Prep time:</strong> 10 min</p>
+                <p><strong>Cook time:</strong> 0 min</p>
+                <p><strong>Servings:</strong> 2</p>
+            </div>
+
+            <h2>Ingredients</h2>
+            <ul>
+                <li>1 ripe pineapple (peeled, cored, and chopped)</li>
+                <li>1–1.5 cups cold water (adjust based on desired consistency)</li>
+                <li>1–2 teaspoons sugar or honey (optional, depending on sweetness of the pineapple)</li>
+                <li>½ teaspoon lemon or lime juice (optional, enhances flavor)</li>
+                <li>Ice cubes (optional)</li>
+            </ul>
+
+            <h2>Instructions</h2>
+            <ol>
+                <li>Peel the pineapple, remove the core, and cut it into small chunks.</li>
+                <li>Add the pineapple chunks to a blender along with cold water.</li>
+                <li>Blend until smooth.</li>
+                <li>If you prefer pulp-free juice, strain the mixture using a fine mesh sieve or cheesecloth.</li>
+                <li>Taste the juice. If needed, add sugar or honey and a splash of lemon or lime juice. Blend briefly to mix.</li>
+                <li>Pour into glasses over ice (optional) and serve chilled!</li>
+            </ol>
+
+            <div class="back">
+                <a href="main.html">← Back to Recipes</a>
+                <div class="recipe-actions">
+                    <button class="action-btn">🔖 Save</button>
+                    <button class="action-btn" onclick="navigator.share ? navigator.share({ title: document.title, url: window.location.href }) : alert('Sharing not supported')">📤 Share</button>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

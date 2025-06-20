@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+    <head>
+        <title>
+            Recipe: Paneer Burger
+        </title>
+        <link rel="stylesheet" href="recipe.css">
+        <link rel="icon" href="logo.png" type="image/png" style="border-radius: 5px;">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <figure>
+                    <img src="logo.png" height="75px" width="75px">
+                    <figcaption>RecipeLove</figcaption>
+                </figure>
+            </div>
+            <h1 class="tagline">
+                ANYONE CAN COOK!
+            </h1>
+            <div class="search-container">
+                <input type="text" placeholder="Search here..." class="search-input">
+                <button class="search-button">Search</button>
+            </div>
+            <form class="search">
+                <a class="button" target="_blank" href="main.html">Get Started</a>
+                <a class="button" target="_blank" href="login.html">Log In</a>
+                <a class="button" target="_blank" href="signup.html">Sign Up</a>
+            </form>
+        </header>
+
+        <div class="navbar">
+            <div class="navoption">
+                Meals
+                <div class="navoptionbox">
+                    <ul>
+                        <li><a href="#">Breakfast</a></li>
+                        <li><a href="#">Snacks</a></li>
+                        <li><a href="#">Lunch</a></li>
+                        <li><a href="#">Brunch</a></li>
+                        <li><a href="#">Dinner</a></li>
+                        <li><a href="#">Desserts</a></li>
+                        <li><a href="#">Drinks</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="navoption">
+                Type
+                <div class="navoptionbox">
+                    <ul>
+                        <li><a href="#">Veg</a></li>
+                        <li><a href="#">Non-Veg</a></li>
+                        <li><a href="#">Fast</a></li>
+                        <li><a href="#">Eggs</a></li>
+                        <li><a href="#">Fruits</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="navoption">
+                Cuisines
+                <div class="navoptionbox">
+                    <ul>
+                        <li><a href="#">Indian</a></li>
+                        <li><a href="#">Mexican</a></li>
+                        <li><a href="#">Italian</a></li>
+                        <li><a href="#">French</a></li>
+                        <li><a href="#">Chinese</a></li>
+                        <li><a href="#">Thai</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="navoption">
+                Kitchen Tips
+                <div class="navoptionbox">
+                    <ul>
+                        <li>🔪Cooking Tips</li>
+                        <li>🧼Cleaning Tips</li>
+                        <li>🧊Storage Tips</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="recipe-page">
+            <h1>
+                Recipe: Paneer Burger
+            </h1>
+            <img src="paneerburger.png" alt="Paneer Burger" class="recipe-img" width="200px" height="200px">
+
+            <div class="recipe-meta">
+                <p><strong>Prep time:</strong> 15 min</p>
+                <p><strong>Cook time:</strong> 15 min</p>
+                <p><strong>Servings:</strong> 2</p>
+            </div>
+
+            <h2>Ingredients</h2>
+            <ul>
+                <li>200g paneer (cut into thick round slices or squares, about burger patty size)</li>
+                <li>2 tbsp cornflour</li>
+                <li>2 tbsp all-purpose flour</li>
+                <li>Spices: chili powder, turmeric, garam masala, salt</li>
+                <li>Water (for batter)</li>
+                <li>Bread crumbs</li>
+                <li>Oil (for frying)</li>
+                <li>2 burger buns</li>
+                <li>Lettuce, onion, tomato slices</li>
+                <li>Cheese slices (optional)</li>
+                <li>Mayo & ketchup</li>
+                <li>Butter (for toasting)</li>
+            </ul>
+
+            <h2>Instructions</h2>
+            <ol>
+                <li>In a bowl, mix cornflour, maida, chili powder, turmeric, garam masala, and salt.</li>
+                <li>Add water slowly to make a medium-thick batter (not too runny).</li>
+                <li>Dip each paneer slice into the batter, coat it well.</li>
+                <li>Roll in breadcrumbs evenly for a nice crispy crust.</li>
+                <li>Heat oil in a pan. Shallow or deep fry the paneer until golden and crispy.</li>
+                <li>Drain on paper towels.</li>
+                <li>Slice burger buns in half and toast them on a pan with a little butter until golden.</li>
+                <li>Spread mayo or desired sauce on both bun halves.</li>
+                <li>Layer lettuce, crispy paneer patty, cheese slice (optional), tomato slices, onion rings.</li>
+                <li>Drizzle some ketchup or extra mayo on top.</li>
+                <li>Cover with the top bun.</li>
+                <li>Serve hot with fries or chips and your favorite drink.
+
+                </li>
+            </ol>
+            <div class="back">
+                <a href="main.html">← Back to Recipes</a>
+                <div class="recipe-actions">
+                    <button class="action-btn">🔖 Save</button>
+                    <button class="action-btn" onclick="navigator.share ? navigator.share({ title: document.title, url: window.location.href }) : alert('Sharing not supported')">📤 Share</button>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

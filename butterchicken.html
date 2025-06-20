@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+    <head>
+        <title>
+            Recipe: Butter Chicken
+        </title>
+        <link rel="stylesheet" href="recipe.css">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+        <link rel="icon" href="logo.png" type="image/png" style="border-radius: 5px;">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <figure>
+                    <img src="logo.png" height="75px" width="75px">
+                    <figcaption>RecipeLove</figcaption>
+                </figure>
+            </div>
+            <h1 class="tagline">
+                ANYONE CAN COOK!
+            </h1>
+            <div class="search-container">
+                <input type="text" placeholder="Search here..." class="search-input">
+                <button class="search-button">Search</button>
+            </div>
+            <form class="search">
+                <a class="button" target="_blank" href="main.html">Get Started</a>
+                <a class="button" target="_blank" href="login.html">Log In</a>
+                <a class="button" target="_blank" href="signup.html">Sign Up</a>
+            </form>
+        </header>
+
+        <div class="navbar">
+            <div class="navoption">
+                Meals
+                <div class="navoptionbox">
+                    <ul>
+                        <li><a href="#">Breakfast</a></li>
+                        <li><a href="#">Snacks</a></li>
+                        <li><a href="#">Lunch</a></li>
+                        <li><a href="#">Brunch</a></li>
+                        <li><a href="#">Dinner</a></li>
+                        <li><a href="#">Desserts</a></li>
+                        <li><a href="#">Drinks</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="navoption">
+                Type
+                <div class="navoptionbox">
+                    <ul>
+                        <li><a href="#">Veg</a></li>
+                        <li><a href="#">Non-Veg</a></li>
+                        <li><a href="#">Fast</a></li>
+                        <li><a href="#">Eggs</a></li>
+                        <li><a href="#">Fruits</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="navoption">
+                Cuisines
+                <div class="navoptionbox">
+                    <ul>
+                        <li><a href="#">Indian</a></li>
+                        <li><a href="#">Mexican</a></li>
+                        <li><a href="#">Italian</a></li>
+                        <li><a href="#">French</a></li>
+                        <li><a href="#">Chinese</a></li>
+                        <li><a href="#">Thai</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="navoption">
+                Kitchen Tips
+                <div class="navoptionbox">
+                    <ul>
+                        <li>🔪Cooking Tips</li>
+                        <li>🧼Cleaning Tips</li>
+                        <li>🧊Storage Tips</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="recipe-page">
+            <h1>
+                Recipe: Butter Chicken
+            </h1>
+            <img src="butterchicken.png" alt="Butter Chicken" class="recipe-img" width="200px" height="200px">
+
+            <div class="recipe-meta">
+                <p><strong>Prep time:</strong> 15 min</p>
+                <p><strong>Cook time:</strong> 45 min</p>
+                <p><strong>Servings:</strong> 4</p>
+            </div>
+
+            <h2>Ingredients</h2>
+            <ul>
+                <li>500g boneless chicken (preferably thigh), cut into pieces</li>
+                <li>1 cup yogurt</li>
+                <li>1 tbsp ginger-garlic paste</li>
+                <li>1 tsp red chili powder</li>
+                <li>Salt to taste</li>
+                <li>2 tbsp butter</li>
+                <li>1 medium onion, finely chopped</li>
+                <li>2 medium tomatoes, pureed</li>
+                <li>1/2 tsp turmeric powder</li>
+                <li>1 tsp garam masala</li>
+                <li>1 tsp coriander powder</li>
+                <li>1/2 cup fresh cream</li>
+                <li>1 tsp kasuri methi (dried fenugreek leaves)</li>
+                <li>Fresh coriander for garnish</li>
+            </ul>
+
+            <h2>Instructions</h2>
+            <ol>
+                <li>Marinate the chicken with yogurt, ginger-garlic paste, red chili powder, and salt. Let it rest for at least 30 minutes (preferably 1 hour).</li>
+                <li>Heat butter in a pan. Add chopped onions and sauté until golden brown.</li>
+                <li>Add tomato puree, turmeric, coriander powder, and cook until the oil starts separating.</li>
+                <li>Add marinated chicken and cook on medium heat until the chicken is fully cooked.</li>
+                <li>Stir in cream, garam masala, and crushed kasuri methi. Let it simmer for 5–10 minutes.</li>
+                <li>Garnish with fresh coriander and serve hot with naan or rice.</li>
+            </ol>
+            <div class="back">
+                <a href="main.html">← Back to Recipes</a>
+                <div class="recipe-actions">
+                    <button class="action-btn">🔖 Save</button>
+                    <button class="action-btn" onclick="navigator.share ? navigator.share({ title: document.title, url: window.location.href }) : alert('Sharing not supported')">📤 Share</button>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
